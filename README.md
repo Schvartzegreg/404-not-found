@@ -41,10 +41,10 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Where can I see your demo? - [Here](https://greg404.netlify.app)
+- What was your experience? - Great! :)
+- What have you learned/improved? - Improved coding practice by learning the best format
+- Your wisdom? :) - Take the time to understand even the basic things. And make something
 
 ### Built With
 
@@ -71,4 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [Schvartzegreg](https://github.com/Schvartzegreg)
-- E-Mail - gregoryerrl@gmail.com
+- E-Mail - gregoryerrl.pro@gmail.com

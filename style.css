@@ -8,24 +8,20 @@ body {
     user-select: none;
 }
 
-.header{
-    height: 50px;
-    width: 18em;
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5em;
-    background-color: black;
-    opacity: 0.6;
-    border-radius: 15px;
-}
+
 
 .not_found{
+    align-self: center;
     color: white;
     font-family: "Roboto";
     font-weight: 300;
-    font-size: 35px;
+    font-size: clamp(30px, 2.5vw, 60px);
+    background-color: rgba(0, 0, 0, 0.582);
+    background-size: 1em;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border-radius: 0.5em;
+    margin-top: 15vh;
 }
 
 
@@ -34,17 +30,17 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 3em;
+    margin-top: 10vh;
 }
 
 .content_texts{
     width: 20em;
-    font-size: 25px;
+    font-size: clamp(20px, 2vw, 50px);
     margin-right: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-right: 8vw;
 }
 
 .content_header{
@@ -66,8 +62,7 @@ body {
 }
 
 .cute_cat{
-    height: 20em;
-    width: 20em;
+    width: 30vw;
     border:2px solid rgba(0, 0, 0, 0.774);
     border-radius: 10px;
     opacity: 0.95;
@@ -96,6 +91,10 @@ body {
 
 @media only screen and (max-width: 800px)
 {
+    .not_found{
+        margin-top: 5vh;
+    }
+
     .content{
         flex-direction: column;
     }
@@ -103,6 +102,11 @@ body {
     .content_texts{
         margin-right: 0;
         margin-bottom: 3em;
+    }
+
+    .cute_cat{
+        height: 30vh;
+        width: auto;
     }
 }
 

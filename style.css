@@ -8,8 +8,6 @@ body {
     user-select: none;
 }
 
-
-
 .header{
     height: 50px;
     width: 18em;
@@ -42,7 +40,7 @@ body {
 .content_texts{
     width: 20em;
     font-size: 25px;
-    padding: 30px;
+    margin-right: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,3 +92,60 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid  rgba(0, 0, 0, 0);
 }
+
+@media only screen and (max-width: 800px)
+{
+    .content{
+        flex-direction: column;
+    }
+
+    .content_texts{
+        margin-right: 0;
+        margin-bottom: 3em;
+    }
+}
+
+
+@media only screen and (max-width: 600px)
+{
+ .header{
+        margin-top: 2em;
+        margin-bottom: 0;
+        height: 40px;
+        width: 13em;
+ }
+
+ .not_found{
+     font-size: 25px;
+ }
+
+ .content{
+     flex-direction: column;
+     margin-top: 2em;
+ }
+
+ .cute_cat{
+     width: 15em;
+     height: 15em;
+ }
+
+ .content_texts{
+     width: 280px;
+     font-size: 20px;
+     margin-bottom: 2em;
+     margin-right: 0;
+     text-align: center;
+ }
+
+ .cat_text{
+     margin-bottom: 1em;
+ }
+
+ .home_button{
+     font-size: 20px;
+     margin-top: 0;
+ }
+
+}
+
+
